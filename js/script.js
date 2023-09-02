@@ -20,7 +20,7 @@ function notify() {
     var address = addresses[random];
     var amount = getRandomNumberBetween(300, 3000);
     toastr.clear()
-    toastr.info(address + " Just Claimed " + numberWithCommas(amount) + " $USDC");
+    toastr.info(address + " MINTED " + numberWithCommas(amount) + " $SVP NFT");
 }
 
 function getRandomNumberBetween(min, max) {
